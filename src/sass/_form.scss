@@ -1,0 +1,91 @@
+body {
+    position: relative;
+}
+
+.form-title {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    margin: 0;
+    z-index: 10;
+    font-size: 21px;
+    color: white;
+}
+
+.search-form {
+    position: relative;
+    top:0;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #313eb0;
+  }
+  
+  .search-form input {
+    width: 250px;
+    height: 28px;
+    border-radius: 2px;
+    border: none;
+    outline: none; 
+  }
+  
+  .search-form button {
+      border-radius: 2px;
+      border:none;
+      outline: none;
+      margin-left: -2px;
+      cursor: pointer;
+  }
+  
+  .load-more {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #313eb0;
+    color: #ffffff;
+    border:none;
+    outline: none;
+    border-radius:2px;
+  }
+  
+  .is-hidden {
+      display:none;
+  }
+  
+  .gallery {
+      display: flex;
+      flex-wrap: wrap;
+    //   margin-top: 58px;
+  }
+  
+  .photo-card {
+    margin: 12px;
+    display: block;
+    border: 1px solid #eeeeee;
+  }
+  
+  .photo-card img {
+    width: 350px;
+    height: 220px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-evenly;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
